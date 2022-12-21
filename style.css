@@ -1,0 +1,48 @@
+:root {
+	--cell-size: 100px;
+
+	--color: #81c3fd; /* for hover */
+	--color-set: #0275d8; /* when set */
+	--l: 10px; /* X line-width */
+}
+
+body {
+	margin: 0;
+
+	
+}
+.board {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: repeat(3, auto)
+	
+}
+
+.cell {
+	width: var(--cell-size);
+	height: var(--cell-size);
+	border: 10px solid royalblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+.winning-message{
+	text-align: center;
+	font-size: x-large;
+}
+#player-label
+{
+	font-size: xx-large;
+	color: red;
+	text-align: center;
+	position: relative;
+	
+
+}

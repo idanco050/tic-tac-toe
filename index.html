@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="./logic.js"></script>
+ <title>Tic-Tac-Toe - LevelUp MTA</title>
+</head>
+<body>
+	<div for="" id = "player-label">X player turn</div>
+ <div class="board" id="board">
+		<div class="cell" data-cell id="c1" onclick="cellClicked('c1')"><h1 style="color: white;">1</h1></div>
+		<div class="cell" data-cell id="c2" onclick="cellClicked('c2')"><h1 style="color: white;">2</h1></div>
+		<div class="cell" data-cell id="c3" onclick="cellClicked('c3')"><h1 style="color: white;">3</h1></div>
+		<div class="cell" data-cell id="c4" onclick="cellClicked('c4')"><h1 style="color: white;">4</h1></div>
+		<div class="cell" data-cell id="c5" onclick="cellClicked('c5')"><h1 style="color: white;">5</h1></div>
+		<div class="cell" data-cell id="c6" onclick="cellClicked('c6')"><h1 style="color: white;">6</h1></div>
+		<div class="cell" data-cell id="c7" onclick="cellClicked('c7')"><h1 style="color: white;">7</h1></div>
+		<div class="cell" data-cell id="c8" onclick="cellClicked('c8')"><h1 style="color: white;">8</h1></div>
+		<div class="cell" data-cell id="c9" onclick="cellClicked('c9')"><h1 style="color: white;">9</h1></div>
+	</div>
+	<div class="winning-message" id="winningMessage">
+		<div id="winningMessageText"></div>
+		<button id="restartButton" onclick="restartGame()">Restart</button>
+	</div>
+</body>
+</html>
